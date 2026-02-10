@@ -1,11 +1,11 @@
 #!/bin/sh
 
 ## setup command:
-## wget https://raw.githubusercontent.com/emilnabil/xmlupdatebyiet5/main/xmlupdatebyiet5.sh -O - | /bin/sh
+## wget https://github.com/emilnabil/xmlupdatebyiet5/raw/refs/heads/main/xmlupdatebyiet5.sh -O - | /bin/sh
 
 echo "Download and install plugin xmlupdatebyiet5"
 ################################################################################
-MY_URL="https://raw.githubusercontent.com/emilnabil/xmlupdatebyiet5/main"
+MY_URL="https://github.com/emilnabil/xmlupdatebyiet5/raw/refs/heads/main"
 MY_IPK="enigma2-plugin-extensions-xmlupdatebyiet5_all.ipk"
 MY_DEB="enigma2-plugin-extensions-xmlupdatebyiet5_all.deb"
 TMP_DIR="/tmp"
@@ -74,5 +74,6 @@ echo "**                   FINISHED                   **"
 echo "**************************************************"
 sleep 2
 exit "$INSTALL_RESULT"
+
 
 
